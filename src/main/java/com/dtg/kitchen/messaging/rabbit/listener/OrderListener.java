@@ -6,11 +6,11 @@ import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
 
 @Component
-public class RabbitOrderListener {
+public class OrderListener {
 
     private KitchenUI ui;
 
-    public RabbitOrderListener(KitchenUI ui){
+    public OrderListener(KitchenUI ui){
         this.ui = ui;
     }
 
